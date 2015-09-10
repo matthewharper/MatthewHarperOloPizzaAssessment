@@ -98,7 +98,7 @@ Error details are below:
 
     // Something to work with.
     [DataContract]
-    public class Pizza
+    public class Pizza 
     {
         [DataMember]
         public string[] toppings { get; set; }
