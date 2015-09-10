@@ -18,7 +18,7 @@ namespace MatthewHarperOloPizzaAssessment
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();  
             this.pizzaGrid.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.pizzaGrid_RowPostPaint);
         }
 
